@@ -11,7 +11,7 @@ export function notToBe(expression: string | number, value: string | number): vo
 }
 
 export function toBeCloseTo(expression: number, value: number, numDigits: number = 2): void {
-    expect(expression).toBeCloseTo(value);
+    expect(expression).toBeCloseTo(value, numDigits);
 }
 
 export function truthy(expression: boolean): void {
