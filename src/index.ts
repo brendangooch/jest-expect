@@ -42,7 +42,6 @@ export function toBeLessThanOrEqual(expression: number, value: number): void {
     expect(expression).toBeLessThanOrEqual(value);
 }
 
-
 export function toBeNull(expression: any): void {
     expect(expression).toBeNull();
 }
@@ -59,3 +58,7 @@ export function toHaveLength<t>(expression: Array<t>, length: number): void {
     expect(expression).toHaveLength(length);
 }
 
+// works only on arrays of primitive datatypes
+export function toBeSameArray<t>(expression: Array<t>, value: Array<t>): void {
+    expect(expression.sort()).toEqual(value.sort());
+}
