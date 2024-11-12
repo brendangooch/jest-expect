@@ -4,7 +4,7 @@ Provides a slightly simpler syntax for writing jest tests + array comparison met
 
 You must install Jest package to use this package
 
-```
+```javascript
 import JestExpect from '@brendangooch/jest-expect';
 const EXPECT = new JestExpect();
 test('some test', () => {
