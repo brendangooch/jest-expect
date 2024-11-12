@@ -1,6 +1,6 @@
 {
     "name": "@brendangooch/jest-expect",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "",
     "author": "B Gooch <brendangooch@gmail.com>",
     "license": "MIT",
@@ -24,6 +24,7 @@
         "/lib"
     ],
     "devDependencies": {
+        "@types/jest": "^29.5.14",
         "typescript": "^5.6.3"
     },
     "repository": {
@@ -38,8 +39,5 @@
     "keywords": [
         "jest",
         "expect"
-    ],
-    "dependencies": {
-        "@types/jest": "^29.5.14"
-    }
+    ]
 }

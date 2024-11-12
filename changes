@@ -1,2 +1,8 @@
 v1.1.0
     added toBeSameArray() method to compare arrays containing primitive datatypes
+
+v2.0.0
+    changed the way the package functions
+    client now instantiates the JestExpect class
+    this adds the ability to negate any test by calling .not ie EXPECT.not.toBe(foo, bar)
+    this is better than writing a negative version of each method
